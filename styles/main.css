@@ -155,7 +155,7 @@ h3 {
     float: right
 }
 
-@media (min-width: 320px) {
+@media (min-width: 380px) {
     .Header {
         margin-bottom:56px;
         padding-bottom: 72px
@@ -175,11 +175,12 @@ h3 {
         padding: 0 10px 0 10px;
     }
 
-    .Photography {
+    .grid_photography_list {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+        grid-template-columns: 1fr;
     }
-
+    
     .Music {
         display: grid;
         grid-template-columns: 1fr;
@@ -188,7 +189,7 @@ h3 {
 
     .Footer {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
@@ -198,14 +199,44 @@ h3 {
     }
 } 
 
-@media (min-width: 780px) {
-    body {
-        padding:56px
+@media (min-width: 760px) {
+    .avatar{
+        align-items: center
     }
 
-    .grid {
+    .header {
+        width: 1200px;
+    }
+
+    section {
+        width: 1200px;
+    }
+
+    .section_header {
+        align-items: center
+    }
+
+    .grid_items {
         display: grid;
-        grid-template-columns: repeat(3,1fr)
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 50px
+    }
+
+    .grid_photography_list {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .grid_music_list {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4,1fr)
+    }
+
+    .footer_description {
+        
     }
 }
 
