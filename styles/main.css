@@ -30,6 +30,7 @@ a,body,div,figure,footer,h1,h2,h3,header,html,img,li,p,section,ul {
     padding: 0
 }
 
+/* styling of header */
 .opening_p {
     font-size: 35px;
 }
@@ -45,6 +46,7 @@ a,body,div,figure,footer,h1,h2,h3,header,html,img,li,p,section,ul {
     border-radius: 50%;
 }
 
+/* styling of links */
 a {
     color:yellow;
     transition: color .2s ease;
@@ -79,6 +81,7 @@ section {
     padding-bottom: 48px
 }
 
+/* where grid styling starts */
 .container {
     margin: 0 auto;
     max-width: 1240px
@@ -92,12 +95,7 @@ img {
     grid-gap: 24px;
 }
 
-.grid_photography_list3 {
-    max-width: 100%;
-}
-.Photography {
-    margin: 0;
-}
+/* all styles of the 1st grid */
 h3 {
     line-height: 1.24em
 }
@@ -129,7 +127,7 @@ h3 {
 }
 
 
-
+/* styling of the photography grid */
 .grid_photography_list {
     display: grid;
     grid-gap: 4px;
@@ -137,6 +135,15 @@ h3 {
     
 }
 
+.grid_photography_list3 {
+    max-width: 100%;
+}
+
+.Photography {
+    margin: 0;
+}
+
+/* styling of music grid */
 .grid_music_list {
     display: grid;
     grid-gap: 10px;
@@ -149,6 +156,8 @@ h3 {
     height: 300px;
 }
 
+
+/* Bottom nav styling */
 .nav {
     margin-left: 16px;
     list-style: none;
@@ -163,6 +172,7 @@ h3 {
     float: right;
 }
 
+/* Mobile view media query */
 @media (min-width: 380px) {
     .Header {
         margin-bottom:56px;
@@ -221,6 +231,7 @@ h3 {
     }
 } 
 
+/* Tablet view media query */
 @media (min-width: 760px) {
     .avatar{
         align-items: center;
@@ -262,6 +273,7 @@ h3 {
     }
 }
 
+/* Desktop view media query */
 @media (min-width: 900px) {
     .opening_p {
         font-size: 40px;
