@@ -47,8 +47,8 @@ a,body,div,figure,footer,h1,h2,h3,header,html,img,li,p,section,ul {
 
 .avatar img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-top: 30px;
 }
 
@@ -57,7 +57,7 @@ a,body,div,figure,footer,h1,h2,h3,header,html,img,li,p,section,ul {
     margin-top: -100px;
 }
 a {
-    color:yellow;
+    color:#ff3;
     transition: color .2s ease;
     text-decoration: none
 }
